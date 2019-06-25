@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 客製化物件名稱 -->
+    <declare-styleable name="StrokeTextView">
+        <!-- 客製化屬性名稱和對應的單位 -->
+        <!--描邊筆畫粗細-->
+        <attr name="stroke" format="float" />
+        <!--描邊筆畫顏色-->
+        <attr name="strokeColor" format="color" />
+    </declare-styleable>
+</resources>

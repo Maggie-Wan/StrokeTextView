@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.maggie.stroketextviewlibrary.StrokeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        app:stroke="30.0"
+        app:strokeColor="#03A9F4"
+        android:paddingBottom="20dp"/>
+
+    <com.maggie.stroketextviewlibrary.StrokeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Android!"
+        android:textSize="40sp"
+        android:textColor="#00BCD4"
+        app:stroke="20.0"
+        app:strokeColor="#F44336"
+        android:paddingBottom="20dp"/>
+
+    <com.maggie.stroketextviewlibrary.StrokeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Google!"
+        android:textSize="40sp"
+        android:textColor="#FFEB3B"
+        app:stroke="10.0"
+        app:strokeColor="#010101"
+        android:paddingBottom="20dp"/>
+
+</LinearLayout>
