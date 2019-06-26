@@ -20,7 +20,7 @@ Add it in your root build.gradle at the end of repositories:
 
 ## Usage：
 
- Add add stroke and stroke color in your xml.
+ Add the stroke and stroke color in your xml.
 
  stroke setting： app:stroke="your stroke(float)"
 
