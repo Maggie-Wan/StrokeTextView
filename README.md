@@ -26,6 +26,8 @@ Add it in your root build.gradle at the end of repositories:
 
  stroke color setting: app:strokeColor="your color(Hex Code)"
 
+ You can see the example in [app file](https://github.com/Maggie-Wan/StrokTextView/blob/master/app/src/main/res/layout/activity_main.xml "app file").
+
     <com.maggie.stroketextviewlibrary.StrokeTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
